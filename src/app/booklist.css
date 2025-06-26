@@ -1,0 +1,55 @@
+.page-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-section {
+  height: 25%; /* occupies top 1/4th of the screen */
+  background-color: #f0f0f0; /* optional background */
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.booklist-wrapper {
+  height: 75%; /* occupies bottom 3/4th */
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 24px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  overflow-y: auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.booklist-title {
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 8px;
+}
+
+.booklist-search {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 200px;
+}
+
+.datatable-container {
+  border: 1px solid gray;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+
+.datatable-container table tbody tr:hover {
+  background-color: #eef1f4;
+  cursor: pointer;
+}
+
